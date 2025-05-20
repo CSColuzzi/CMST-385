@@ -21,10 +21,9 @@ on:
 jobs:
 
   build-and-deploy:
-
+  steps:
     runs-on: windows-latest
-
-    - uses: actions/checkout@main
+   uses: actions/checkout@main
 
     - name: Deploy to Azure Web App
 
